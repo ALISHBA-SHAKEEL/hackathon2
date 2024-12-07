@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coranu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+    <section class="user-posts">
+       
+        <div id="postsContainer"></div> <!-- Posts will be added here dynamically -->
+    </section>
+   
+    <header>
+        <div class="logo">
+            <span class="logo-icon">●</span> Coranu
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+       <a href="signup.html"> <button class="login-register">login-register</button></a>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Thoughts, Ideas, and Stories</h1>
+            <p>
+                A space where creativity flows, ideas take shape, and stories come to life. Dive in, explore, and connect with insights that inspire and resonate.
+            </p>
+        </section>
+
+        <section class="trending-topics">
+            <h2>Trending Topics</h2>
+            <div class="topics">
+                <button>Design Thinking</button>
+                <button>Technology</button>
+                <button>Web3</button>
+                <button>Programming</button>
+                <button>AI</button>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section id="authContainer">
+             Display Login/Register or Welcome message
+             <div id="welcomeMessage" style="display: none;">
+                <h2>Welcome, <span id="userName"></span>!</h2>
+                <button id="logoutButton">Logout</button>
+            </div>
+            <div id="loginSignup" style="display: block;">
+                <button id="showSignup">Sign Up</button>
+                <button id="showLogin">Log In</button>
+            </div>
+        </section>
+        
+        <section id="userForm" style="display: none;">
+            <h2>Create or Update Your Post</h2>
+            <form id="postForm">
+                <input type="text" id="postName" placeholder="Enter your name" required />
+                <textarea id="postDescription" placeholder="Describe your post" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section class="user-posts">
+            <h2>Recent Posts</h2>
+            <div id="postsContainer"></div>
+        </section>
+        
+
+
+
+
+
+
+
+
+        
+        <section class="blog-posts">
+            <article>
+                <h3>Powerful Trading Tools and Features for Experienced Investors</h3>
+                <p>By Mark Tuchel <span>●</span> 7 min read</p>
+                <p>
+                    I'm always trying to think of new and interesting business ideas. I generally try to come up with ideas by thinking of what I would want to do or see in the world...
+                </p>
+            </article>
+
+            <article>
+                <h3>Master JavaScript: 10 Essential Tips Every Developer Must Know</h3>
+                <p>By Harry Olend <span>●</span> 4 min read</p>
+                <p>
+                    JavaScript remains one of the most popular programming languages for building dynamic and interactive web applications...
+                </p>
+            </article>
+        </section>
+
+        <section class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Enter your email..." required>
+              <button type="submit">Submit</button>
+            </form>
+            <p>*You can unsubscribe anytime</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Coranu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="mainpage.js"></script>
+</body>
+</html> 
+
+
+ 
+
+
+
+
+
+
+
